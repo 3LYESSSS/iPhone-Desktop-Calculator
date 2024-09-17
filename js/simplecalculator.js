@@ -1,7 +1,3 @@
-/**
- * Created by sabir.salman on 1/27/15.
- */
-
  var input = document.getElementById("screen");
  var operator = ['+','-','x','/'];
  var decimalAdded = false;
@@ -168,7 +164,6 @@
  
  }
  
- /*to convert infix to postfix expression*/
  
  function shuntingYardAlgorithm(expression)
  {
